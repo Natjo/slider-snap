@@ -41,7 +41,7 @@ Container with no visible overflow
 </div>
 ```
 
-*css*
+**css**
 ```css
 .myslider{
     @media (min-width: 600px){
