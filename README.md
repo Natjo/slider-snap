@@ -77,7 +77,7 @@ Container with visible overflow for full view
 </div>
 ```
 
-#### css slider fulll width
+#### css
 ```css
 .myslider{
     grid-template-columns: var(--offset) auto var(--offset);
