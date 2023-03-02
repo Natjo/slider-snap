@@ -4,7 +4,8 @@
 ![version](https://img.shields.io/github/manifest-json/v/Natjo/slider-snap)
 
 Slider using native scrollable element and snap for touchable devices.<br>
-No looping
+Using css vars to set numbers of columns.<br>
+
 
 
 ## Parameters
@@ -40,16 +41,6 @@ Container with no visible overflow
 </div>
 ```
 
-### javascript
-```javascript
-const sliders = document.querySelectorAll('.slider');
-sliders.forEach(slider => {
-    const myscroll = new Slider(slider);
-    myscroll.enable();
-});
-
-```
-
 ### css slider in container
 ```css
 .myslider{
@@ -60,6 +51,12 @@ sliders.forEach(slider => {
 }
 ```
 
+### javascript
+```javascript
+const slider = document.querySelector('.myslider');
+const myscroll = new Slider(slider);
+myscroll.enable();
+```
 
 ## Full
 Container with visible overflow for full view
@@ -100,7 +97,13 @@ Container with visible overflow for full view
         --nb: 4;
     }
 }
+```
 
+### javascript
+```javascript
+const slider = document.querySelector('.myslider');
+const myscroll = new Slider(slider);
+myscroll.enable();
 ```
 
 ## Demo
