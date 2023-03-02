@@ -3,7 +3,8 @@
 
 ![version](https://img.shields.io/github/manifest-json/v/Natjo/slider-snap)
 
-Slider
+Slider using native scrollable element and snap for touchable devices.<br>
+No looping
 
 
 ## Parameters
@@ -19,6 +20,7 @@ Slider
 
 
 ## Classique
+Container with no visible overflow
 
 ### Html 
 ```html
@@ -60,6 +62,7 @@ sliders.forEach(slider => {
 
 
 ## Full
+Container with visible overflow for full view
 
 ### Html 
 ```html
