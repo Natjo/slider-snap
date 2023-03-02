@@ -23,7 +23,7 @@ Using css vars to set numbers of columns.<br>
 ## Classique
 Container with no visible overflow
 
-### Html 
+#### Html 
 ```html
 <div class="container slider myslider">
     <ul class="slider-content" aria-label="Last news">
@@ -41,7 +41,7 @@ Container with no visible overflow
 </div>
 ```
 
-**css**
+#### css
 ```css
 .myslider{
     @media (min-width: 600px){
@@ -51,7 +51,7 @@ Container with no visible overflow
 }
 ```
 
-### javascript
+#### javascript
 ```javascript
 const slider = document.querySelector('.myslider');
 const myscroll = new Slider(slider);
@@ -61,7 +61,7 @@ myscroll.enable();
 ## Full
 Container with visible overflow for full view
 
-### Html 
+#### Html 
 ```html
 <div class="slider full myslider" aria-label="Last news">
     <button class="slider-btn prev" aria-hidden="true" tabindex="-1">prev</button>
@@ -77,7 +77,7 @@ Container with visible overflow for full view
 </div>
 ```
 
-### css slider fulll width
+#### css slider fulll width
 ```css
 .myslider{
     grid-template-columns: var(--offset) auto var(--offset);
@@ -99,7 +99,7 @@ Container with visible overflow for full view
 }
 ```
 
-### javascript
+#### javascript
 ```javascript
 const slider = document.querySelector('.myslider');
 const myscroll = new Slider(slider);
